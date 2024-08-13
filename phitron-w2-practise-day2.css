@@ -1,0 +1,80 @@
+.cart{
+    padding: 30px 0px;
+    border-radius: 16px;
+    text-align: center;
+    box-shadow: 4px 4px 8px gray;
+}
+.food-container{
+    display: grid;
+    grid-template-columns: repeat(4,1fr);
+    justify-content: space-around;
+    gap: 30px;
+}
+.search{
+    text-align: center;
+    margin-bottom: 30px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-top: 20px;
+}
+.search input{
+    box-shadow: 4px 4px 8px gray;
+    padding: 20px 100px;
+    border: none;
+    border-radius: 12px;
+    margin-right: 20px;
+}
+.button-action{
+    border: none;
+    background: tomato;
+    padding: 17px 40px;
+    border-radius: 12px;
+    color: white;
+    font-size: 20px;
+   
+}
+.cart img{
+    width: 300px;
+    height: 80%;
+    border-radius: 16px;
+}
+.alert-msg {
+    color: red;
+    text-align: center;
+    margin-top: 50px;
+    font-size: 60px;
+}
+.detail-content img{
+    width: 350px;
+    height: 300px;
+    border-radius: 12px;
+}
+.detail-content{
+    background: purple;
+    color: white;
+    font-size: 15px;
+    box-shadow: 4px 4px 8px gray;
+    text-align: center;
+    width: 30%;
+    margin: 20px auto;
+    padding: 10px;
+    border-radius: 12px;
+}
+.close{
+    border: none;
+    padding: 12px 24px;
+    background:red;
+    border-radius: 8px;
+    color: white;
+    font-size: 15px;
+}
+.detail{
+    border: none;
+    padding: 12px 24px;
+    background:tomato;
+    border-radius: 8px;
+    color: white;
+    font-size: 15px;
+}
+
